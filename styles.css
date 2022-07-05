@@ -1,0 +1,50 @@
+
+body,html{
+	background-color: black;
+	color: pink;
+	font-family: 'Consolas', monospace;
+	margin: 0px;
+	background: url(./images/supra.png) center fixed;
+	background-size: cover;
+}
+
+#title{
+	color: #15022b;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+header{
+	margin-top: 2em;
+	text-align: center;
+}
+
+#link-container{
+	border: 2px solid pink;
+	text-align: center;
+	border-radius: 10px;
+}
+
+li{
+	font-size: 20px;
+	list-style-type: none;
+	background-color: #15022b;
+	margin: 1em;
+	border-radius: 20px;
+}
+
+a{color: pink;}
+a:visited{text-decoration: none;}
+a:link{text-decoration: none;}
+
+a:hover{
+	color: red;
+}
+
+#avatar{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
