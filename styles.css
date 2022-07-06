@@ -19,19 +19,22 @@ body,html{
 header{
 	margin-top: 2em;
 	text-align: center;
+	display: flex;
+	justify-content: center;
 }
 
 p{
 	font-weight: bold;
 	font-size: 30px;
-	margin-top: 0;
 	color: #15022b;
 }
 
 #link-container{
-	/**border: 2px solid pink;**/
-	text-align: center;
-	/**border-radius: 10px;**/
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/**max-width: 480px;**/
 }
 
 li{
@@ -39,21 +42,29 @@ li{
 	font-weight: bold;
 	list-style-type: none;
 	background-color: rgba(226,125,208,0.6);
-	margin: 1em;
+	margin: 0.5em;
 	border-radius: 20px;
 	box-shadow: 0 6px 6px rgba(0,0,0,0.6);
 	text-align: center;
 	padding: 0.5em;
-	display: grid;
-	justify-content: center;
+	/**max-width: 480px;**/
 }
 
 a{color: #15022b;}
 a:visited{text-decoration: none;}
 a:link{text-decoration: none;}
-
 a:hover{
 	color: #aaa;
+}
+
+#linkedin-logo{
+	width: 16px;
+	height: 16px;
+}
+
+#github-logo{
+	width: 16px;
+	height: 16px;
 }
 
 #avatar{
